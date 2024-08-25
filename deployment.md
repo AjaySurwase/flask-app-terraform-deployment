@@ -89,4 +89,4 @@ terraform apply -auto-approve
 ```
 9. The above command will deploy the application and give the Web link as output.
 
-![output](https://github.com/mathesh-me/application-deployment-in-aws-terraform/assets/144098846/3570868c-d0f9-4d47-8651-b1301c072dce)
+![output](![alt text](image.png))
