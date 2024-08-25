@@ -22,4 +22,15 @@ resource "aws_instance" "server" {
     destination = "/home/ubuntu/templates/index.html"         # Destination on the remote instance
   }
 
+  provisioner "remote-exec" {
+    inline = [
+      "echo 'Hello from the remote instance'",
+      "sudo apt update -y",                  # Update package lists (for ubuntu)
+      "sudo apt-get install -y python3-pip", # Example package installation
+      "cd /home/ubuntu",
+      "sudo pip3 install flask",
+      "sudo python3 app.py",
+    ]
+  }
+
 }
