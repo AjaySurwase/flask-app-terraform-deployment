@@ -91,9 +91,12 @@ Deploy-Flask-App/
 
 ## 🖼️ Screenshots
 
-- Architecture diagram 
-(`![diagram](https://github.com/mathesh-me/application-deployment-in-aws-terraform/assets/144098846/03e4386d-3d6f-4d96-ba07-fe828175a634)`)
-- App- ('![diagram]("C:\Users\ajays\Desktop\Flaskapp.png")')
+- Architecture diagram  
+  ![diagram](https://github.com/mathesh-me/application-deployment-in-aws-terraform/assets/144098846/03e4386d-3d6f-4d96-ba07-fe828175a634)
+
+- App  
+  ![app screenshot](Flaskapp.png)  <!-- Make sure Flaskapp.png is in the same repo folder or adjust the path -->
+
 ---
 
 ## 🤝 Contributing
