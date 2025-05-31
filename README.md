@@ -6,7 +6,8 @@ This project demonstrates how to deploy a Python Flask web application on AWS EC
 
 ## 📁 Project Structure
 
-```
+
+ ```
 Deploy-Flask-App/
 ├── Application Deployment/
 │   ├── main.tf
@@ -16,23 +17,16 @@ Deploy-Flask-App/
 │   ├── vpc.tf
 │   ├── ec2.tf
 │   ├── terraform.tfvars
-│   └── ... (other Terraform files)
+│   └── (other Terraform files)
 ├── Flask Application/
 │   ├── app.py
 │   └── templates/
 │       └── index.html
 ├── .gitignore
 ├── README.md
-├── setup.md
-├── providers.md
-├── resources.md
-├── variables.md
-├── outputs.md
-├── flask-app.md
-├── deployment.md
 └── image.png
-```
 
+```
 ---
 
 ## 🚀 How It Works
@@ -97,10 +91,8 @@ Deploy-Flask-App/
 
 ## 🖼️ Screenshots
 
-- Architecture diagram (`image.png`)
-- Flask app in browser
-- Terraform output
-
+- Architecture diagram (`![diagram](https://github.com/mathesh-me/application-deployment-in-aws-terraform/assets/144098846/03e4386d-3d6f-4d96-ba07-fe828175a634)`)
+- App- ('![diagram]("C:\Users\ajays\Desktop\Flaskapp.png")')
 ---
 
 ## 🤝 Contributing
@@ -124,7 +116,7 @@ Pull requests are welcome! For major changes, please open an issue first.
 In this project, I leveraged the power of **Terraform Provisioners** and **AWS** to create an automated and consistent deployment pipeline for applications on Amazon EC2 instances.This project is an automation solution designed to simplify the deployment of applications on AWS EC2 instances. In this project, I am going to deploy a simple flask application.
 
 ## Overview :
-![diagram](https://github.com/mathesh-me/application-deployment-in-aws-terraform/assets/144098846/03e4386d-3d6f-4d96-ba07-fe828175a634)
+
 
 
 ## Key Features:
@@ -169,24 +161,3 @@ Implemented AWS security best practices, including IAM role assignments and secu
    [Step-6]: <./outputs.md>
    [Step-7]: <./deployment.md>
 
-
- ```
-Deploy-Flask-App/
-├── Application Deployment/
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   ├── security-group.tf
-│   ├── vpc.tf
-│   ├── ec2.tf
-│   ├── terraform.tfvars
-│   └── (other Terraform files)
-├── Flask Application/
-│   ├── app.py
-│   └── templates/
-│       └── index.html
-├── .gitignore
-├── README.md
-└── image.png
-
-```
