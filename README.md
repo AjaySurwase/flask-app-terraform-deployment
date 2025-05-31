@@ -47,3 +47,26 @@ Implemented AWS security best practices, including IAM role assignments and secu
    [Step-5]: <./flask-app.md>   
    [Step-6]: <./outputs.md>
    [Step-7]: <./deployment.md>
+
+
+   ```
+Deploy-Flask-App/
+├── Application Deployment/
+│   ├── *.tf (Terraform configuration files)
+│   ├── terraform.tfvars
+│   └── .terraform/ (Terraform state and providers)
+├── Flask Application/
+│   ├── app.py
+│   └── templates/
+│       └── index.html
+├── .gitignore
+├── README.md
+├── setup.md
+├── providers.md
+├── resources.md
+├── variables.md
+├── outputs.md
+├── flask-app.md
+├── deployment.md
+└── image.png
+```
